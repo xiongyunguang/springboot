@@ -113,9 +113,21 @@ String applicationPath = basePath + "/" + "application";
                      
                      <th width="5%" nowrap class="COLLECTION">${client.cemail }</th>
                   <th width="7%" nowrap class="COLLECTION"> ${client.cprofession }</th>
+                    
                     <th width="7%" nowrap class="COLLECTION"> 
+                    <c:if test="${client.cstate==0 }">
+                       <span style="color: green;">潜在客户</span>
+                   </c:if>
                    
-                   ${client.cstate }</th>
+                   <c:if test="${client.cstate==1 }">
+                       <span style="color: black;">新客户</span>
+                   </c:if>
+                   
+                   <c:if test="${client.cstate==2 }">
+                       <span style="color: navy;">老客户</span>
+                   </c:if>
+                       
+                   </th>
                   <th width="5%" nowrap class="COLLECTION"> 
                   
                     ${client.ccontext }</th>

@@ -151,7 +151,7 @@
 									年龄：
 								</td>
 								<td width="36%" align="left" class="even padl5">
-									<input type=text name="cage" required="required" id="cage" maxlength="32" class="inputnormal"
+									<input type=text name="cage" id="cage" maxlength="32" class="inputnormal"
 										value="${clientOne.cage }">
 								</td>
 							</tr>
@@ -215,8 +215,13 @@
 									客户状态
 								</td>
 								<td width="36%" align="left" class="even padl5">
-									
-									<input class="Wdate" type="text" name="cstate" id="cstate" required="required" maxlength="32" value="${clientOne.cstate }"/>
+									<%-- 
+									<input class="Wdate" type="text" name="cstate" id="cstate" required="required" maxlength="32" value="${clientOne.cstate }"/> --%>
+									<select name="cstate" class="Wdate">
+                           				<option value=0>潜在客户</option>
+                           				<option value=1>新客户</option>
+                           			    <option value=2>老客户</option>
+                                    </select> 
 								</td>
 							</tr>
 							
