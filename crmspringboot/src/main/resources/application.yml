@@ -1,0 +1,87 @@
+#配置tomcat端口
+server:
+  port: 8888
+  
+#配置工程热部署
+#配置spring datasource四个属性 加载HikariDataSource
+spring: 
+  datasource: 
+   #type: com.zaxxer.hikari.HikariDataSource
+   driver-class-name: com.mysql.jdbc.Driver
+   url: jdbc:mysql://localhost:3306/CRM?serverTimezone=Asia/Shanghai&characterEncoding=utf8&rewriteBatchedStatements=true&useCursorFetch=true
+   username: root
+   password: 123456
+   hikari: 
+     #jdbc-url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Shanghai&characterEncoding=utf8&rewriteBatchedStatements=true&useCursorFetch=true
+     #driver-class-name: com.mysql.cj.jdbc.Driver
+     #username: root
+     #password: root
+     pool-name: mypool
+     minimum-idle: 10
+     maximum-pool-size: 200
+     max-lifetime: 1800000
+     login-timeout: 30000 
+     initialization-fail-timeout: 60000
+     idle-timeout: 300000
+     connection-timeout: 20000
+     connection-init-sql: select 1
+     #HikariDataSource 优化配置
+     data-source-properties:
+        cachePrepStmts: true 
+        prepStmtCacheSize: 250 
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+        useLocalSessionState: true
+        useLocalTransactionState: true   
+ 
+ #工程热部署    
+  devtools:
+    restart:
+      enabled: true
+      #配置热部署文件路径
+      additional-paths:
+      - src/main/java/
+      - src/main/webapp/
+      - src/main/webapp/WEB-INF/
+      - src/main/resources/
+      
+      #配置不需要热部署的文件路径
+      additional-exclude: src/main/resources/static
+
+#配置MyBatis
+mybatis:
+  #在mybatis框架中如果选择批处理模式，所有insert、update、delete返回的行更新值为负数
+  executor-type: simple
+  #config属性配置就是注释类中的相关属性或Configuration类
+  configuration:
+    local-cache-scope: session
+    map-underscore-to-camel-case: true
+    aggressive-lazy-loading: false
+    cache-enabled: true
+    default-fetch-size: 2000
+    lazy-loading-enabled: true
+    default-result-set-type: forward-only
+    lazy-load-trigger-methods:
+    #当mybatis遇到这toString或hashCode方法是触发立即加载
+    - toString
+    - hashCode
+  lazy-initialization: false 
+  mapper-locations:
+  - com/vo/*.xml
+  #- com/mybatis/vo/StudentVO.xml
+  #- com/mybatis/vo/TeacherVO.xml
+
+    
+#使用spring boot 自带的logback日志记录器    
+logging: 
+  #加载自定义的log4j2配置，其他相关属性配置就需要
+  config: classpath:log4j2.xml
+#日志文件文件名 默认跟随当前的工程目录
+  file: my.log
+  #springboot默认是10MB
+  file.max-size: 100MB
+  #日志记录级别 记录指定日志的内容
+  level: 
+   com: debug
+    
+     

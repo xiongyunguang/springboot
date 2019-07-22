@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.user.UserDao">
+ 
+<!-- 映射配置部分 -->
+  <resultMap id="user" type="com.vo.UserVO">
+  	<id column="uid" jdbcType="BIGINT"   property="uid"/>
+  	<result column="uaccount"    jdbcType="VARCHAR"  property="uaccount"/>
+  	<result column="uname"       jdbcType="VARCHAR"  property="uname"/>
+  	<result column="upassword"   jdbcType="VARCHAR"  property="upassword"/>
+  	<result column="utype"       jdbcType="BIGINT"   property="utype"/>
+  	<result column="upost"       jdbcType="BIGINT"   property="upost"/>
+  	<result column="uage"        jdbcType="BIGINT"   property="uage"/>
+  	<result column="uowner"      jdbcType="BIGINT"   property="uowner"/>
+ 	<result column="usex"        jdbcType="VARCHAR"  property="usex"/>
+ 	<result column="uwrokday"    jdbcType="DATE"  property="uwrokday"/>
+ 	<result column="uquitworkday"      jdbcType="DATE"  property="uquitworkday"/>	
+
+ 	<association column="uaddress" property="uaddress"  resultMap="com.dao.address.AddressDao.address">			
+	</association>	
+  </resultMap>
+
+<!-- sql配置部分 -->  
+<!-- 登录     传入用户对象根据用户名    密码    返回数据库中对应的用户数据 -->
+  <select id="showUser"  parameterType="com.vo.UserVO"  resultMap="user">
+  	SELECT * FROM USER,ADDRESS  WHERE  USER.UPASSWORD=#{upassword} AND USER.UACCOUNT=#{uaccount} AND USER.UADDRESS=ADDRESS.AID
+  </select>
+<!-- 传入用户对象根据用户id    返回数据库中对应的用户数据 -->
+  <select id="showOneUser"  parameterType="com.vo.UserVO"  resultMap="user">
+  	SELECT * FROM USER,ADDRESS  WHERE  USER.UID=#{uid} AND  USER.UADDRESS=ADDRESS.AID
+  </select>
+  
+  <!-- 传入用户对象(经理)     查询所管理用户(员工) -->
+ <select id="showOwnerUser"  parameterType="com.vo.UserVO"  resultMap="user">
+  	SELECT * FROM USER,ADDRESS  WHERE  USER.UOWNER=#{uowner} AND USER.UADDRESS=ADDRESS.AID
+  </select>
+  <!-- !!!!!!!!!!! -->
+  <!-- 传入用户对象         修改员工的在职状态     changeUType -->
+  <update id="changeUType" parameterType="com.vo.UserVO">
+ 		UPDATE  USER  SET   UTYPE=#{utype}  WHERE  USER.UID=#{uid}
+  </update>
+  
+  
+  <!-- 传入两个用户对象           进行客户的交接(修改客户表的所属员工id)     changeOwnerClient -->
+  <update id="changeOwnerClient" parameterType="java.util.Map" >
+ 		UPDATE  CLIENT  SET   Client.USERID=#{news}  WHERE  Client.USERID=#{old}
+  </update>
+  
+  <!-- 传入用户对象(经理)    查看所管理的所有合同                                          showAllContract -->
+ 	<select   id="showAllContract"  parameterType="com.vo.UserVO" resultMap="com.dao.contract.ContractDao.contract">
+<!-- SELECT  *  FROM  CONTRACT c,USER ,CLIENT,address  WHERE USER.UOWNER=#{uid} AND c.`conuser`=user.`uid`  AND c.`conclient`=client.`cid` and user.`uaddress`=address.`aid` -->
+SELECT  USER.UID,CLIENT.CID,  C.CONID  ,USER.UNAME,CLIENT.CNAME, C.CONIMG,C.CONTITLE,C.CONDETAILS,C.CONDATE,C.CONSTATUS,C.CONCLIENT,C.CONUSER FROM  CONTRACT C ,USER ,CLIENT WHERE  USER.UOWNER=#{uid} 
+ 	</select>
+ 
+  <!-- 传入用户对象(经理)    查看所管理的所有工作                                         showAllJob -->
+	<select id="showAllJob"  parameterType="com.vo.UserVO" resultMap="com.dao.job.JobDao.job"> 
+	SELECT  * FROM  JOB,USER,CLIENT
+    WHERE USER.uowner=#{uid} 
+	</select>
+	
+ <!-- 传入用户对象(经理)    查看所管理的所有客户                                         showAllclient -->
+   <select id="showAllclient"  parameterType="com.vo.UserVO" resultMap="com.dao.client.ClientDao.client">   
+    SELECT * FROM USER,CLIENT,ADDRESS WHERE USER.UOWNER=#{uid}
+   </select>
+ 
+    
+</mapper>

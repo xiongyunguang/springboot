@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.contract.ContractDao">
+
+
+ <resultMap id="contract" type="com.vo.ContractVO">
+  	<id column="conid" property="conid"/>
+  	<result column="conimg" property="conimg"/>
+  	<result column="contitle" property="contitle"/>
+  	<result column="condetails" property="condetails"/>
+  	<result column="condate" property="condate"/>
+  	<result column="constatus" property="constatus"/>
+  	
+  	<collection property="conclient" resultMap="com.dao.client.ClientDao.client"></collection>
+  	<collection property="conuser" resultMap="com.dao.user.UserDao.user"></collection>
+ </resultMap>
+	
+<!-- sql语句 -->
+	<!-- 插入 -->
+<!-- 	<sql id="key">
+		<trim suffixOverrides=",">
+			<if test="conimg!=null">
+				conimg,
+			</if>
+			<if test="contitle!=null">
+				contitle,
+			</if>
+			<if test="condetails!=null">
+				condetails,
+			</if>
+			<if test="condate!=null">
+				condate,
+			</if>
+			<if test="constatus!=null">
+				constatus,
+			</if>
+			<if test="conclient!=null">
+				conclient,
+			</if>
+			<if test="conuser!=null">
+				conuser,
+			</if>
+		</trim>
+	</sql>
+	<sql id="value">
+		<trim suffixOverrides=",">
+			<if test="conimg!=null">
+				#{conimg},
+			</if>
+			<if test="contitle!=null">
+				#{contitle},
+			</if>
+			<if test="condetails!=null">
+				#{condetails},
+			</if>
+			<if test="condate!=null">
+				#{condate},
+			</if>
+			<if test="constatus!=null">
+				#{constatus},
+			</if>
+			<if test="conclient!=null">
+				#{conclient},
+			</if>
+			<if test="conuser!=null">
+				#{conuser},
+			</if>
+		</trim>
+	</sql>
+ -->
+	<insert id="addNewContract" parameterType="com.vo.ContractVO">
+		INSERT INTO contract(conimg,contitle,condetails,condate,
+		constatus,conclient,conuser) VALUES(#{conimg},
+		#{contitle},#{condetails},#{condate},#{constatus},
+		#{conclient.cid},#{conuser.uid})
+	</insert>
+
+	<!-- 合同ID -->
+	<select id="showOneContract" parameterType="com.vo.ContractVO" resultMap="contract">
+		SELECT * FROM CLIENT,USER,contract,address WHERE 
+		CLIENT.`cid`=contract.`conclient` 
+		AND USER.`uid`=contract.`conuser` 
+		AND CLIENT.`clocation`=address.`aid` 
+		AND client.`userid`=user.`uid` 
+		AND contract.`conid`=#{conid}
+	</select>
+	<!-- 客户ID -->
+	<select id="showCidContract" parameterType="com.vo.ClientVO" resultMap="contract">
+		SELECT * FROM CLIENT,USER,contract,address WHERE 
+		CLIENT.`cid`=contract.`conclient` 
+		AND USER.`uid`=contract.`conuser` 
+		AND CLIENT.`clocation`=address.`aid` 
+		AND client.`userid`=user.`uid` 
+		AND contract.`conclient`=#{cid}
+	</select>
+	
+	<!-- 用户ID -->
+	<select id="showOwnerContract" parameterType="com.vo.UserVO" resultMap="contract">
+		SELECT * FROM CLIENT,USER,contract,address WHERE 
+		contract.`conclient`=CLIENT.`cid` 
+		AND contract.`conuser`=USER.`uid` 
+		AND CLIENT.`clocation`=address.`aid` 
+		AND client.`userid`=user.`uid` 
+		AND contract.`conuser`=#{uid}
+		<if test="upost==1">
+			AND contract.`constatus`!=2
+		</if>
+	</select>
+	<!-- 修改合同 -->
+	<sql id="updataContract">
+		<trim suffixOverrides=",">
+			<if test="condate!=null">
+				condate=#{condate},
+			</if>
+			<if test="constatus!=null">
+				constatus=#{constatus},
+			</if>
+		</trim>
+	</sql>
+	<update id="changeContract" parameterType="com.vo.ContractVO">
+		UPDATE contract SET <include refid="updataContract"/> where conid=#{conid}
+	</update>
+</mapper>

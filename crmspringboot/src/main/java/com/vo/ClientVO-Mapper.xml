@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.client.ClientDao">
+ 
+<resultMap id="client" type="com.vo.ClientVO">
+  	 <id column="cid" property="cid"/>
+  	 <result column="cname" property="cname"/>
+  	 <result column="csex" property="csex"/>
+  	 <result column="cage" property="cage"/>
+  	 <result column="cphone" property="cphone"/>
+  	 <result column="cemail" property="cemail"/>
+  	 <result column="cprofession" property="cprofession"/>
+  	 <result column="cstate" property="cstate"/>
+  	 <result column="ccontext" property="ccontext"/>
+  	 <result column="cimage" property="cimage"/>
+  	 <association column="clocation" property="clocation" resultMap="com.dao.address.AddressDao.address"/>
+  	 <association column="userid" property="userid" resultMap="com.dao.user.UserDao.user"/> 
+</resultMap>
+<!-- 查指定客户的所有信息 -->
+	<select id="showOneClient" parameterType="com.vo.ClientVO" resultMap="client">
+		SELECT * FROM CLIENT,address,USER WHERE cid=#{cid} 
+		AND user.`uid`=client.`userid`
+		AND client.`clocation`=address.`aid`
+	</select>
+  
+ <!-- 查指定员工的所有客户 --> 
+	<select id="showAllClient" resultMap="client" parameterType="com.vo.UserVO">
+		SELECT * FROM CLIENT,ADDRESS,`USER` 
+		WHERE  USER.`UID`=CLIENT.`USERID`
+		AND CLIENT.`CLOCATION`=ADDRESS.`AID`
+		AND CLIENT.`USERID`=#{uid}		
+	</select>
+	
+
+	
+  <!-- SQL动态插入 -->
+   <!-- sql片段对应字段名,id属性值任意 -->
+  	 <sql id="key">
+  	 	  <!-- 去掉最后一个, -->
+          <trim suffixOverrides=",">
+          <!-- if条件中的是类的属性名 -->
+            <if test="cname != null">cname,</if>
+  			<if test="csex != null">csex,</if>
+  			<if test="cage != null">cage,</if>
+  			<if test="cphone != null">cphone,</if>
+  			<if test="cemail != null">cemail,</if>
+  			<if test="cprofession != null">cprofession,</if>
+  			<if test="cstate != null">cstate,</if>
+  			<if test="ccontext != null">ccontext,</if>
+  			<if test="clocation != null">clocation,</if> 
+  			<if test="cimage != null">cimage,</if>
+  			<if test="userid != null">userid,</if>
+        </trim>
+     </sql> 
+       
+     <sql id="value">
+         <trim suffixOverrides=",">
+          <if test="cname != null">#{cname},</if>
+  			<if test="csex != null">#{csex},</if>
+  			<if test="cage != null">#{cage},</if>
+  			<if test="cphone != null">#{cphone},</if>
+  			<if test="cemail != null">#{cemail},</if>
+  			<if test="cprofession != null">#{cprofession},</if>
+  			<if test="cstate != null">#{cstate},</if>
+  			<if test="ccontext != null">#{ccontext},</if>
+  			<if test="clocation != null">#{clocation.aid},</if> 
+  			<if test="cimage != null">#{cimage.cid},</if>
+  			<if test="userid != null">#{userid.uid},</if>
+        </trim>
+     </sql>
+    
+  	<insert id="addNewClient" parameterType="com.vo.ClientVO">
+        INSERT INTO CLIENT(<include refid="key"/>) VALUES(<include refid="value"/>)
+    </insert>
+  
+   
+   <!-- 录入新增客户信息 --> 
+  
+ <!--  <insert id="addNewClient" parameterType="com.vo.ClientVO">
+  		INSERT INTO CLIENT(CNAME,CSEX,CAGE,CPHONE,CEMAIL,CPROFESSION,CSTATE,CCONTEXT,CLOCATION,CIMAGE,USERID) 
+		VALUES(#{cname},#{csex},#{cage},#{cphone},#{cemail},#{cprofession},#{cstate},#{ccontext},#{clocation.aid},#{cimage},#{userid.uid})
+  </insert> -->
+  
+  <!-- SQL动态修改 -->
+  	<update id="changeClient" parameterType="com.vo.ClientVO">
+  		update client
+  		<trim prefix="set" suffixOverrides=",">
+  			<if test="cname != null">cname=#{cname},</if>
+  			<if test="csex != null">csex=#{csex},</if>
+  			<if test="cage != null">cage=#{cage},</if>
+  			<if test="cphone != null">cphone=#{cphone},</if>
+  			<if test="cemail != null">cemail=#{cemail},</if>
+  			<if test="cprofession != null">cprofession=#{cprofession},</if>
+  			<if test="cstate != null">cstate=#{cstate},</if>
+  			<if test="ccontext != null">ccontext=#{ccontext},</if>
+  			 <if test="clocation != null">clocation=#{clocation.aid},</if> 
+  			<if test="cimage != null">cimage=#{cimage.cid},</if>
+  		</trim>
+  		where cid=#{cid}
+  	</update>
+  
+   <!-- 修改客户信息 -->
+ 
+ <!--  <update id="changeClient" parameterType="com.vo.ClientVO">
+  		UPDATE CLIENT SET CNAME=#{cname},CSEX=#{csex},CAGE=#{cage},CPHONE=#{cphone},CEMAIL=#{cemail},
+  		CPROFESSION=#{cprofession},CSTATE=#{cstate},CCONTEXT=#{ccontext},CLOCATION=#{clocation.aid},CIMAGE=#{cimage} 
+  		WHERE CID=#{cid}	
+  </update> -->
+  
+</mapper>

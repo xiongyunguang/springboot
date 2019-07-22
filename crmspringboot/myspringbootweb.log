@@ -1,0 +1,453 @@
+2019-07-20 11:02:39.343  INFO 484 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 484 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:02:39.345 DEBUG 484 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:02:39.345  INFO 484 --- [restartedMain] com.my.demo.CrmspringbootApplication     : No active profile set, falling back to default profiles: default
+2019-07-20 11:02:39.384  INFO 484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:02:39.385  INFO 484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:02:40.343  WARN 484 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:02:41.087  INFO 484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:02:41.125  INFO 484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 11:02:41.126  INFO 484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:02:41.899  INFO 484 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:02:41.904  INFO 484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:02:41.904  INFO 484 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2519 ms
+2019-07-20 11:02:42.140  INFO 484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:02:42.437  INFO 484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:02:42.502  INFO 484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:02:42.504  INFO 484 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Started CrmspringbootApplication in 3.574 seconds (JVM running for 13.554)
+2019-07-20 11:03:08.317  INFO 484 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:03:08.325  INFO 484 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:04:00.312  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 908 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:04:00.314 DEBUG 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:04:00.315  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : No active profile set, falling back to default profiles: default
+2019-07-20 11:04:00.353  INFO 908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:04:00.354  INFO 908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:04:01.027  WARN 908 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:04:01.460  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:04:01.484  INFO 908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 11:04:01.485  INFO 908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:04:01.669  INFO 908 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:04:01.674  INFO 908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:04:01.675  INFO 908 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1321 ms
+2019-07-20 11:04:01.896  INFO 908 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:04:02.212  INFO 908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:04:02.277  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:04:02.280  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Started CrmspringbootApplication in 2.335 seconds (JVM running for 3.345)
+2019-07-20 11:04:22.523  INFO 908 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:04:22.523  INFO 908 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:04:22.534  INFO 908 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-07-20 11:08:40.379  INFO 908 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:08:40.893  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 908 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:08:40.893 DEBUG 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:08:40.893  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : No active profile set, falling back to default profiles: default
+2019-07-20 11:08:41.068  WARN 908 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:08:41.139  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:08:41.141  INFO 908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 11:08:41.141  INFO 908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:08:41.192  INFO 908 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:08:41.195  INFO 908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:08:41.195  INFO 908 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 300 ms
+2019-07-20 11:08:41.263  INFO 908 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:08:41.369  INFO 908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:08:41.388  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:08:41.388  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Started CrmspringbootApplication in 0.52 seconds (JVM running for 282.453)
+2019-07-20 11:08:41.390  INFO 908 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:08:51.658  INFO 908 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:08:52.133  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 908 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:08:52.133 DEBUG 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:08:52.133  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : No active profile set, falling back to default profiles: default
+2019-07-20 11:08:52.300  WARN 908 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:08:52.364  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:08:52.365  INFO 908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 11:08:52.365  INFO 908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:08:52.416  INFO 908 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:08:52.417  INFO 908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:08:52.417  INFO 908 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 282 ms
+2019-07-20 11:08:52.475  INFO 908 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:08:52.563  INFO 908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:08:52.579  INFO 908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:08:52.579  INFO 908 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Started CrmspringbootApplication in 0.468 seconds (JVM running for 293.644)
+2019-07-20 11:08:52.581  INFO 908 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:09:10.094  INFO 908 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:09:10.099  INFO 908 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:09:15.342  INFO 6012 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 6012 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:09:15.344 DEBUG 6012 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:09:15.345  INFO 6012 --- [restartedMain] com.my.demo.CrmspringbootApplication     : No active profile set, falling back to default profiles: default
+2019-07-20 11:09:15.385  INFO 6012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:09:15.386  INFO 6012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:09:16.064  WARN 6012 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:09:16.496  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:09:16.521  INFO 6012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 11:09:16.521  INFO 6012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:09:16.700  INFO 6012 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:09:16.706  INFO 6012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:09:16.706  INFO 6012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1319 ms
+2019-07-20 11:09:16.936  INFO 6012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:09:17.230  INFO 6012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:09:17.282  INFO 6012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:09:17.286  INFO 6012 --- [restartedMain] com.my.demo.CrmspringbootApplication     : Started CrmspringbootApplication in 2.308 seconds (JVM running for 3.123)
+2019-07-20 11:09:28.077  INFO 6012 --- [http-nio-8088-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:09:28.077  INFO 6012 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:09:28.088  INFO 6012 --- [http-nio-8088-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-07-20 11:12:42.809  INFO 6012 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:13:48.599  INFO 4760 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 4760 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:13:48.629 DEBUG 4760 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:13:48.631  INFO 4760 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:13:48.725  INFO 4760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:13:48.725  INFO 4760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:13:50.353  WARN 4760 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:13:51.593  INFO 4760 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:13:51.637  INFO 4760 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:13:51.639  INFO 4760 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:13:52.036  INFO 4760 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:13:52.045  INFO 4760 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:13:52.045  INFO 4760 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 3318 ms
+2019-07-20 11:13:52.394  INFO 4760 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:13:52.918  INFO 4760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:13:53.009  INFO 4760 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:13:53.013  INFO 4760 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 5.114 seconds (JVM running for 5.911)
+2019-07-20 11:14:01.421  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 10960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:14:01.428 DEBUG 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:14:01.430  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:14:01.472  INFO 10960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:14:01.472  INFO 10960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:14:02.085  WARN 10960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:14:02.504  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:14:02.530  INFO 10960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:14:02.531  INFO 10960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:14:02.709  INFO 10960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:14:02.715  INFO 10960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:14:02.716  INFO 10960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1244 ms
+2019-07-20 11:14:02.938  INFO 10960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:14:03.323  INFO 10960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:14:03.374  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:14:03.377  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 2.394 seconds (JVM running for 3.39)
+2019-07-20 11:14:08.894  INFO 10960 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:14:08.895  INFO 10960 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:14:08.903  INFO 10960 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2019-07-20 11:15:05.577  INFO 10960 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:06.033  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 10960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:15:06.033 DEBUG 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:15:06.033  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:15:06.213  WARN 10960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:15:06.301  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:15:06.302  INFO 10960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:15:06.302  INFO 10960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:15:06.371  INFO 10960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:15:06.373  INFO 10960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:15:06.373  INFO 10960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 338 ms
+2019-07-20 11:15:06.448  INFO 10960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:06.567  INFO 10960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:15:06.587  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:15:06.588  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.591 seconds (JVM running for 66.601)
+2019-07-20 11:15:06.590  INFO 10960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:15:20.623  INFO 10960 --- [Thread-10] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:21.156  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 10960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:15:21.156 DEBUG 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:15:21.156  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:15:21.330  WARN 10960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:15:21.405  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:15:21.407  INFO 10960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:15:21.407  INFO 10960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:15:21.482  INFO 10960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:15:21.484  INFO 10960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:15:21.484  INFO 10960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 326 ms
+2019-07-20 11:15:21.578  INFO 10960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:21.738  INFO 10960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:15:21.761  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:15:21.762  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.64 seconds (JVM running for 81.775)
+2019-07-20 11:15:21.765  INFO 10960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:15:30.556  INFO 10960 --- [Thread-16] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:31.046  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 10960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:15:31.046 DEBUG 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:15:31.046  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:15:31.212  WARN 10960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:15:31.286  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:15:31.288  INFO 10960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:15:31.289  INFO 10960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:15:31.343  INFO 10960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:15:31.344  INFO 10960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:15:31.345  INFO 10960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 296 ms
+2019-07-20 11:15:31.411  INFO 10960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:31.514  INFO 10960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:15:31.534  INFO 10960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:15:31.534  INFO 10960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.519 seconds (JVM running for 91.548)
+2019-07-20 11:15:31.536  INFO 10960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:15:37.760  INFO 10960 --- [http-nio-8088-exec-6] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:15:37.760  INFO 10960 --- [http-nio-8088-exec-6] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:15:37.771  INFO 10960 --- [http-nio-8088-exec-6] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2019-07-20 11:15:41.158  INFO 10960 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:15:41.160  INFO 10960 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:50.087  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 3280 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:15:50.095 DEBUG 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:15:50.096  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:15:50.146  INFO 3280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:15:50.146  INFO 3280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:15:50.765  WARN 3280 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:15:51.195  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:15:51.223  INFO 3280 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:15:51.224  INFO 3280 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:15:51.409  INFO 3280 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:15:51.415  INFO 3280 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:15:51.415  INFO 3280 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1269 ms
+2019-07-20 11:15:51.650  INFO 3280 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:15:52.042  INFO 3280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:15:52.093  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:15:52.096  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 2.457 seconds (JVM running for 3.45)
+2019-07-20 11:15:57.487  INFO 3280 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:15:57.487  INFO 3280 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:15:57.504  INFO 3280 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 16 ms
+2019-07-20 11:17:22.475  INFO 3280 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:17:23.126  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 3280 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:17:23.126 DEBUG 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:17:23.127  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:17:23.326  WARN 3280 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:17:23.415  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:17:23.416  INFO 3280 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:17:23.416  INFO 3280 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:17:23.480  INFO 3280 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:17:23.482  INFO 3280 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:17:23.482  INFO 3280 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 352 ms
+2019-07-20 11:17:23.562  INFO 3280 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:17:23.677  INFO 3280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:17:23.701  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:17:23.702  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.611 seconds (JVM running for 95.056)
+2019-07-20 11:17:23.704  INFO 3280 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:17:38.762  INFO 3280 --- [Thread-10] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:17:39.288  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 3280 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:17:39.289 DEBUG 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:17:39.289  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:17:39.476  WARN 3280 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:17:39.555  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:17:39.556  INFO 3280 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:17:39.556  INFO 3280 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:17:39.621  INFO 3280 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:17:39.622  INFO 3280 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:17:39.622  INFO 3280 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 331 ms
+2019-07-20 11:17:39.689  INFO 3280 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:17:39.799  INFO 3280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:17:39.819  INFO 3280 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:17:39.819  INFO 3280 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.567 seconds (JVM running for 111.174)
+2019-07-20 11:17:39.821  INFO 3280 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:17:42.242  INFO 3280 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:17:42.245  INFO 3280 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:17:59.883  INFO 4992 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 4992 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:17:59.901 DEBUG 4992 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:17:59.902  INFO 4992 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:17:59.972  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:17:59.972  INFO 4992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:18:01.168  WARN 4992 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:18:02.452  INFO 4992 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:18:02.500  INFO 4992 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:18:02.501  INFO 4992 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:18:02.920  INFO 4992 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:18:02.928  INFO 4992 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:18:02.928  INFO 4992 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2955 ms
+2019-07-20 11:18:03.332  INFO 4992 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:18:03.909  INFO 4992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:18:04.005  INFO 4992 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:18:04.010  INFO 4992 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 4.806 seconds (JVM running for 5.697)
+2019-07-20 11:18:18.679  INFO 4992 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:18:18.679  INFO 4992 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:18:18.708  INFO 4992 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 28 ms
+2019-07-20 11:18:26.972  INFO 3812 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 3812 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:18:26.983 DEBUG 3812 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:18:26.984  INFO 3812 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:18:27.053  INFO 3812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:18:27.054  INFO 3812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:18:27.848  WARN 3812 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:18:28.416  INFO 3812 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:18:28.456  INFO 3812 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:18:28.457  INFO 3812 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:18:28.671  INFO 3812 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:18:28.676  INFO 3812 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:18:28.676  INFO 3812 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1622 ms
+2019-07-20 11:18:28.900  INFO 3812 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:18:29.299  INFO 3812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:18:29.353  INFO 3812 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:18:29.355  INFO 3812 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 2.91 seconds (JVM running for 3.877)
+2019-07-20 11:18:38.023  INFO 3812 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:18:38.023  INFO 3812 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:18:38.034  INFO 3812 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2019-07-20 11:19:27.330  INFO 3812 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:19:27.334  INFO 3812 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:19:50.620  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 8960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:19:50.627 DEBUG 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:19:50.628  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:19:50.679  INFO 8960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:19:50.680  INFO 8960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:19:51.326  WARN 8960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:19:51.763  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:19:51.790  INFO 8960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:19:51.791  INFO 8960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:19:51.980  INFO 8960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:19:51.988  INFO 8960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:19:51.989  INFO 8960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1308 ms
+2019-07-20 11:19:52.225  INFO 8960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:19:52.625  INFO 8960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:19:52.676  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:19:52.679  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 2.51 seconds (JVM running for 3.481)
+2019-07-20 11:19:57.740  INFO 8960 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:19:57.744  INFO 8960 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:19:57.771  INFO 8960 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 27 ms
+2019-07-20 11:20:48.728  INFO 8960 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:20:49.223  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 8960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:20:49.223 DEBUG 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:20:49.223  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:20:49.415  WARN 8960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:20:49.499  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:20:49.500  INFO 8960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:20:49.500  INFO 8960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:20:49.574  INFO 8960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:20:49.575  INFO 8960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:20:49.576  INFO 8960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 351 ms
+2019-07-20 11:20:49.636  INFO 8960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:20:49.759  INFO 8960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:20:49.785  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:20:49.786  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.599 seconds (JVM running for 60.587)
+2019-07-20 11:20:49.789  INFO 8960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:21:03.763  INFO 8960 --- [Thread-10] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:21:04.270  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 8960 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:21:04.270 DEBUG 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:21:04.270  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:21:04.436  WARN 8960 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:21:04.510  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:21:04.512  INFO 8960 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:21:04.512  INFO 8960 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:21:04.573  INFO 8960 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:21:04.575  INFO 8960 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:21:04.575  INFO 8960 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 303 ms
+2019-07-20 11:21:04.643  INFO 8960 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:21:04.747  INFO 8960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:21:04.765  INFO 8960 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:21:04.766  INFO 8960 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 0.531 seconds (JVM running for 75.567)
+2019-07-20 11:21:04.768  INFO 8960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:21:05.508  INFO 8960 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:21:05.511  INFO 8960 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:21:11.654  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 5568 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:21:11.661 DEBUG 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:21:11.662  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:21:11.717  INFO 5568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:21:11.719  INFO 5568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:21:12.330  WARN 5568 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:21:12.765  INFO 5568 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:21:12.792  INFO 5568 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:21:12.793  INFO 5568 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:21:12.983  INFO 5568 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:21:12.988  INFO 5568 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:21:12.989  INFO 5568 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1269 ms
+2019-07-20 11:21:13.223  INFO 5568 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:21:13.626  INFO 5568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:21:13.680  INFO 5568 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:21:13.684  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 2.481 seconds (JVM running for 3.459)
+2019-07-20 11:21:20.962  INFO 5568 --- [http-nio-8088-exec-5] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 11:21:20.963  INFO 5568 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2019-07-20 11:21:20.974  INFO 5568 --- [http-nio-8088-exec-5] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2019-07-20 11:22:12.487  INFO 5568 --- [Thread-6] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:22:13.273  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 5568 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:22:13.273 DEBUG 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:22:13.274  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : No active profile set, falling back to default profiles: default
+2019-07-20 11:22:14.466  WARN 5568 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my.demo]' package. Please check your configuration.
+2019-07-20 11:22:14.755  INFO 5568 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:22:14.757  INFO 5568 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:22:14.757  INFO 5568 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:22:14.823  INFO 5568 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:22:14.828  INFO 5568 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:22:14.828  INFO 5568 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1552 ms
+2019-07-20 11:22:14.902  INFO 5568 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:22:15.127  INFO 5568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 11:22:15.149  INFO 5568 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8088 (http) with context path ''
+2019-07-20 11:22:15.150  INFO 5568 --- [restartedMain] c.m.d.CrmspringbootApplication           : Started CrmspringbootApplication in 1.929 seconds (JVM running for 64.925)
+2019-07-20 11:22:15.152  INFO 5568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 11:22:17.355  INFO 5568 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 11:22:17.358  INFO 5568 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-20 11:22:27.206  INFO 9144 --- [restartedMain] c.m.CrmspringbootApplication             : Starting CrmspringbootApplication on DESKTOP-GC0LE8H with PID 9144 (started by 方鲜春 in D:\sts数据\crmspringboot)
+2019-07-20 11:22:27.214 DEBUG 9144 --- [restartedMain] c.m.CrmspringbootApplication             : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-07-20 11:22:27.215  INFO 9144 --- [restartedMain] c.m.CrmspringbootApplication             : No active profile set, falling back to default profiles: default
+2019-07-20 11:22:27.266  INFO 9144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 11:22:27.267  INFO 9144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 11:22:27.916  WARN 9144 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.my]' package. Please check your configuration.
+2019-07-20 11:22:28.344  INFO 9144 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8088 (http)
+2019-07-20 11:22:28.369  INFO 9144 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-20 11:22:28.370  INFO 9144 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 11:22:28.570  INFO 9144 --- [restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-20 11:22:28.578  INFO 9144 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-20 11:22:28.578  INFO 9144 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1311 ms
+2019-07-20 11:22:28.650  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Starting...
+2019-07-20 11:22:28.885  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Start completed.
+2019-07-20 11:22:29.132  WARN 9144 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientDaoImpl': Unsatisfied dependency expressed through method 'init' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [com/my/datasource/DataSourceFactory.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.ibatis.session.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-07-20 11:22:29.133  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Shutdown initiated...
+2019-07-20 11:22:29.136  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Shutdown completed.
+2019-07-20 11:22:29.139  INFO 9144 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-20 11:22:29.150  INFO 9144 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-20 11:22:29.275  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Starting...
+2019-07-20 11:22:29.280  INFO 9144 --- [restartedMain] c.z.h.HikariDataSource                   : myspringbootweb - Start completed.
+2019-07-20 11:22:29.286 ERROR 9144 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientDaoImpl': Unsatisfied dependency expressed through method 'init' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [com/my/datasource/DataSourceFactory.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.ibatis.session.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:676) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$147/1994760726.getObject(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.my.CrmspringbootApplication.main(CrmspringbootApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [com/my/datasource/DataSourceFactory.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.ibatis.session.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$147/1994760726.getObject(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:668) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.ibatis.session.SqlSessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1658) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1256) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$147/1994760726.getObject(Unknown Source) ~[?:?]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:668) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 25 more
+

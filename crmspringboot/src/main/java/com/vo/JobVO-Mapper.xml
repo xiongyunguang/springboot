@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.job.JobDao">
+ 
+<!-- 映射配置部分 --> 
+  <resultMap id="job" type="com.vo.JobVO">
+  	<id column="jid" property="jid"/>
+  	<result column="jtitle" property="jtitle"/>
+  	<result column="jcontent" property="jcontent"/>
+  	<result column="jdate" property="jdate"/>
+  	<result column="jtype" property="jtype"/>
+  	<collection property="jtarget" resultMap="com.dao.client.ClientDao.client"/>
+  	<collection property="juser" resultMap="com.dao.user.UserDao.user"/>
+  </resultMap>
+
+<!-- sql配置部分 -->  
+	<select id="showOneJob" parameterType="com.vo.JobVO" resultMap="job">
+		
+		<!-- job.jid, job.jtitle, job.jcontent, job.jtarget, job.jdate, job.jtype, job.juser, 
+		USER.uid, USER.uaccount, USER.upassword, USER.uname, USER.utype, USER.upost, USER.uaddress, USER.uwrokday, USER.uquitworkday, USER.uage, USER.usex, USER.uowner, 
+		CLIENT.cid, CLIENT.cname, CLIENT.csex, CLIENT.cage, CLIENT.cphone, CLIENT.cemail, CLIENT.cprofession, CLIENT.cstate, CLIENT.ccontext, CLIENT.clocation, CLIENT.cimage, CLIENT.userid
+		 -->
+
+		SELECT * FROM job,USER,CLIENT WHERE jid=#{jid}
+		AND job.`juser`=user.`uid`
+		AND job.`jtarget`=client.`cid`
+	</select>	
+  
+    <select id="showOwnerJob" parameterType="com.vo.UserVO" resultMap="job">
+    	SELECT * FROM job,USER,CLIENT,ADDRESS  WHERE JOB.`juser`=#{uid}
+		AND job.`juser`=user.`uid`
+		AND job.`jtarget`=client.`cid`
+		AND user.`uaddress`=address.`aid`
+    </select>
+    
+    
+  	<!-- SQL动态更新 -->
+  	<update id="changeJob" parameterType="com.vo.JobVO">
+  		UPDATE job
+  		<trim prefix="set" suffixOverrides=",">
+  			<if test="jtitle != null">jtitle=#{jtitle},</if>
+  			<if test="jcontent != null">jcontent=#{jcontent},</if>
+  			<if test="jdate != null">jdate=#{jdate},</if>
+  			<if test="jtype != null">jtype=#{jtype},</if>
+  			<if test="jtarget != null">jtarget=#{jtarget.cid},</if>
+  			<if test="juser != null">juser=#{juser.uid},</if>
+  		</trim>
+  		WHERE job.`jid`=#{jid}
+  	</update>
+  	
+  	<!-- 动态SQL插入 -->
+  	<!-- INSERT job(jtitle,jcontent,jdate,jtype,jtarget,juser) 
+  		 VALUE(?,?,?,?,?,?) -->
+  	<sql id="key">
+  		<trim suffixOverrides=",">
+  			<if test="jtitle != null">jtitle,</if>
+  			<if test="jcontent != null">jcontent,</if>
+  			<if test="jdate != null">jdate,</if>
+  			<if test="jtype != null">jtype,</if>
+  			<if test="jtarget != null">jtarget,</if>
+  			<if test="juser != null">juser,</if>
+  		</trim>
+  	</sql>
+  	
+  	<sql id="value">
+  		<trim suffixOverrides=",">
+  			<if test="jtitle != null">#{jtitle},</if>
+  			<if test="jcontent != null">#{jcontent},</if>
+  			<if test="jdate != null">#{jdate},</if>
+  			<if test="jtype != null">#{jtype},</if>
+  			<if test="jtarget != null">#{jtarget.cid},</if>
+  			<if test="juser != null">#{juser.uid},</if>
+  		</trim>  	
+  	</sql>
+  	<insert id="addNewJob" parameterType="com.vo.JobVO">
+  		INSERT job(<include refid="key"/>) VALUE(<include refid="value"/>)	
+  	</insert>
+  
+  
+</mapper>
