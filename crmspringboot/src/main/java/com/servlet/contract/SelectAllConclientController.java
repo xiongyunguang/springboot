@@ -26,9 +26,7 @@ public class SelectAllConclientController{
 		
 		ModelAndView modelAndView = new ModelAndView();
 		UserVO user=(UserVO)arg0.getSession().getAttribute("user");
-//		UserVO user = new UserVO();
-//		user.setUid(1);	
-		
+
 		List<ClientVO> list= clientService.showAllClient(user);
 		modelAndView.addObject("Conclient",list);
 		modelAndView.setViewName("addcontract.jsp");

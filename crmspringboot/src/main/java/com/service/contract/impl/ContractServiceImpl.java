@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.dao.contract.ContractDao;
+import com.service.client.ClientService;
 import com.service.contract.ContractService;
 import com.vo.ClientVO;
 import com.vo.ContractVO;
@@ -15,14 +16,23 @@ import com.vo.UserVO;
 public class ContractServiceImpl implements ContractService {
 	
 	@Autowired
-	public ContractDao contractDao;
-
+	private ContractDao contractDao;
+	@Autowired
+	private ClientService clientService;
+	
 	@Override
-	public String addNewContract(ContractVO c) {
-		boolean i=contractDao.addNewContract(c);
+	public String addNewContract(ContractVO con) {
+		boolean i=contractDao.addNewContract(con);
 		String back="";
 		if(i) {
 			back="添加成功！";
+			ClientVO client=clientService.showOneClient(con.getConclient());
+			if(client.getCstate()==0) {
+				client.setCstate(1);
+			}else if(client.getCstate()==1) {
+				client.setCstate(2);
+			}
+			clientService.changeClient(client, null);
 		}else {
 			back="添加失败！";
 		}

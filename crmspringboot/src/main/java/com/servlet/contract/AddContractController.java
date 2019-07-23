@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.service.client.ClientService;
 import com.service.contract.ContractService;
 import com.vo.ClientVO;
 import com.vo.ContractVO;
@@ -15,8 +16,13 @@ import com.vo.UserVO;
 @Controller
 public class AddContractController{
 	
+	
+	
 	@Autowired
 	private ContractService contractService;
+	
+	@Autowired
+	private ClientService clientService;
 	
 	@RequestMapping("/addContractController")
 	public ModelAndView handleRequest(String conimg,
@@ -36,6 +42,7 @@ public class AddContractController{
 		
 		ClientVO client=new ClientVO();
 		client.setCid(Integer.valueOf(conclient));
+		
 		con.setConclient(client);
 		
 		UserVO user=new UserVO();

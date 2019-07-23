@@ -13,7 +13,7 @@ public interface ClientService {
 	public List<ClientVO> showAllClient(UserVO user);
 	
 	//¼�������û���Ϣ
-	public boolean addClient(ClientVO c,String clocation,String cuid); 
+	public boolean addClient(ClientVO c,String clocation,UserVO cuid); 
 		
 	//�޸���Ϣ
 	public boolean changeClient(ClientVO c,String clocation);

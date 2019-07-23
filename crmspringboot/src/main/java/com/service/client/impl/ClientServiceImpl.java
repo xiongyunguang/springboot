@@ -17,7 +17,6 @@ public class ClientServiceImpl implements ClientService{
 	@Autowired
 	public ClientDao clientDao;
 
-
 	@Override
 	public ClientVO showOneClient(ClientVO c) {
 		
@@ -33,17 +32,14 @@ public class ClientServiceImpl implements ClientService{
 
 
 	@Override
-	public boolean addClient(ClientVO c,String clocation,String cuid) {
+	public boolean addClient(ClientVO c,String clocation,UserVO cuid) {
 		//��ǰ�˴���ĵ�����id(�ַ�������)�󶨵�client������
 		AddressVO a=new AddressVO();
 		a.setAid(Integer.parseInt(clocation));
 		
-		//��ǰ�˴����Ա����id(�ַ�������)�󶨵�client������
-		UserVO u=new UserVO();
-		u.setUid(Integer.parseInt(cuid));
-		
+	
 		c.setClocation(a);
-		c.setUserid(u);
+		c.setUserid(cuid);
 		
 		return clientDao.addNewClient(c);
 	}
@@ -52,8 +48,10 @@ public class ClientServiceImpl implements ClientService{
 	@Override
 	public boolean changeClient(ClientVO c,String clocation){
 		AddressVO a=new AddressVO();
-		a.setAid(Integer.parseInt(clocation));
-		c.setClocation(a);
+		if(clocation!=null) {
+			a.setAid(Integer.parseInt(clocation));
+			c.setClocation(a);
+		}
 		return clientDao.changeClient(c);
 	}
 	

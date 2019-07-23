@@ -93,8 +93,8 @@
   			<if test="cprofession != null">cprofession=#{cprofession},</if>
   			<if test="cstate != null">cstate=#{cstate},</if>
   			<if test="ccontext != null">ccontext=#{ccontext},</if>
-  			 <if test="clocation != null">clocation=#{clocation.aid},</if> 
-  			<if test="cimage != null">cimage=#{cimage.cid},</if>
+  			<if test="clocation != null">clocation=#{clocation.aid},</if> 
+  			<if test="cimage != null">cimage=#{cimage},</if>
   		</trim>
   		where cid=#{cid}
   	</update>

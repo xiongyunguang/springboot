@@ -24,9 +24,6 @@ public class SelectUidContractController{
 	@RequestMapping("/selectUidContractController")
 	public ModelAndView handleRequest(HttpServletRequest arg0){
 		UserVO user=(UserVO)arg0.getSession().getAttribute("user");
-//		UserVO user=new UserVO();
-//		user.setUid(1);
-//		user.setUpost(1);
 		List<ContractVO> list=contractService.showOwnerContract(user);
 		
 		ModelAndView modelAndView=new ModelAndView();
