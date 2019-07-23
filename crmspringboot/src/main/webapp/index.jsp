@@ -6,7 +6,7 @@ String applicationPath = basePath + "/" + "application";
 %>
 <html>
 	<head>
-	  <title>医院管理系统</title>
+	  <title>员工管理系统</title>
 	</head>
 <frameset rows="59,*" frameborder="no" border="0" framespacing="0">、、
 	<frame src="top.jsp" noresize="noresize" frameborder="0" name="topFrame" marginwidth="0" marginheight="0" scrolling="no">

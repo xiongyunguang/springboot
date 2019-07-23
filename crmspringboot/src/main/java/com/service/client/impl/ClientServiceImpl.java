@@ -37,7 +37,6 @@ public class ClientServiceImpl implements ClientService{
 		AddressVO a=new AddressVO();
 		a.setAid(Integer.parseInt(clocation));
 		
-	
 		c.setClocation(a);
 		c.setUserid(cuid);
 		

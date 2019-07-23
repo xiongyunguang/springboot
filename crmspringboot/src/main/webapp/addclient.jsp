@@ -143,8 +143,16 @@ function checkform() {
 								</td>
 								<td width="36%" align="left" class="even padl5">
 									
-									<input class="Wdate" type="text" name="cstate" required="required"  maxlength="32" />
+									<select name="cstate" class="Wdate">
+                           				<option value=0>潜在客户</option>
+                           				<option value=1>新客户</option>
+                           			    <option value=2>老客户</option>
+                                    </select> 
 								</td>
+								<!-- <td width="36%" align="left" class="even padl5">
+									
+									<input class="Wdate" type="text" name="cstate" required="required"  maxlength="32" />
+								</td> -->
 							</tr>
 							
 							<tr>
@@ -184,7 +192,7 @@ function checkform() {
 									<input class="Wdate" type="text" name="cimage"  maxlength="32" />
 								</td>
 							</tr> -->
-							<tr>
+							<!-- <tr>
 
 								<td width="14%" align="right" class="COLLECTION">
 								所属职工编号：
@@ -193,7 +201,7 @@ function checkform() {
 									
 									<input class="Wdate" type="text" name="cuid"  maxlength="32" />
 								</td>
-							</tr>
+							</tr> -->
 							
 						</table>
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">

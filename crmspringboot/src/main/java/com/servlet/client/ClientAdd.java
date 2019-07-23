@@ -26,7 +26,7 @@ public class ClientAdd {
 		ModelAndView modelView=new ModelAndView();
 		
 		UserVO cuid=(UserVO) request.getSession().getAttribute("user");
-		
+
 		boolean b=clientService.addClient(c,location,cuid);
 		
 		if (b) {
